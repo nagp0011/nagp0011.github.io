@@ -1,0 +1,29 @@
+body {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1,h2 {
+    background-color: yellowgreen;
+}
+.site-title {
+    color: brown;
+}
+#my-image {
+    box-shadow: 0 2px 1px black;
+}
+li:nth-child(odd) {
+    /*background color for odd list */
+    background-color: yellowgreen;
+}
+a{
+    /*deleting line in link */
+    text-decoration: none;
+}
+a:link{
+    color: orangered;
+    background-color: yellow;
+    border-color: black;
+}
+a:hover{
+    background-color: yellowgreen;
+}
